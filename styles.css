@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    
+}
+#header {
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 5px 10px lightgray;
+    padding: 10px;
+    display: flex;
+    
+}
+
+#header h1 {
+    margin: 0px;
+    padding: 0px;
+    color: #313130;
+    margin-left: 30px;
+}
+#header sup{
+    color: gray;
+    margin-left: 5px;
+}
+#main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+#container {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+}
+#container article h2, p {
+    margin: 10px;
+    padding: 0;
+}
